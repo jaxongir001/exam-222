@@ -1,0 +1,92 @@
+.contact__right{
+    margin-left: 166px;
+
+}
+.contact_fish{
+    transform: rotate(5deg);
+    position: absolute;
+    right: -20px;
+    width: 380px;
+    height: 380px;
+    bottom: 100px;
+}
+
+.contact {
+    position: relative;
+    padding: 88px 162px;
+    margin-top: 265px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: url(../../images/bg2.png);
+    &__right {
+        display: flex;
+        flex-direction: column;
+
+        .contact__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 62px;
+            color: #FFFFFF;
+        }
+
+        .contact__text {
+            width: 334px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #949494;
+
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            
+
+            .name {
+                margin-top: 14px;
+                outline: none;
+                border: none;
+                width: 375px;
+                padding: 16px 22px;
+                background: #FFFFFF;
+                border-radius: 5px;
+            }
+
+            .comentary {
+                margin-top: 14px;
+                outline: none;
+                border: none;
+                width: 375px;
+                padding: 16px 22px;
+                background: #FFFFFF;
+                border-radius: 5px;
+                width: 375px;
+                resize: none;
+            }
+
+            .submit {
+                width: 235px;
+                margin-top: 30px;
+                padding: 18px 51px;
+                outline: none;
+                border: none;
+                background: #FFBD54;
+                border-radius: 5px;
+                color: #FFFFFF;
+            }
+
+            .submit:active {
+                background: #333333;
+                opacity: 0.6;
+            }
+
+            .submit:hover {
+                background: #333333;
+            }
+        }
+    }
+}

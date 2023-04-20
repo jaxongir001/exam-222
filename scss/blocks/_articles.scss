@@ -1,0 +1,51 @@
+.articles{
+    margin-top: 235px;
+    background: url(../../images/bg.png);
+    &__wrapper{
+        padding: 90px  ;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        position: relative;
+    .articles__left-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 20px;
+       color: #FFFFFF;
+    }   
+   .form{
+    margin-top: 32px;
+    display: flex;
+    gap: 21px;
+   } 
+    .email{
+        outline: none;
+        border: none;
+        width: 335px;
+        padding: 18px 22px;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+    .submit{
+        padding:18px 51px ;
+        outline: none;
+        border: none;
+        background: #333333;
+        border-radius: 5px;
+        color: #FFFFFF;
+    }
+    .submit:active{
+        background: #FFBD54;
+        opacity: 0.6;
+    }
+    .submit:hover{
+        background: #FFBD54;
+    }
+    }
+.wrapper__right{
+    position: absolute;  
+    bottom: -70px;   
+    right: 0;
+}
+}

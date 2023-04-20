@@ -1,0 +1,93 @@
+.subscription {
+    margin-top: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    &__right {
+        &-title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 20px;
+            /* or 56% */
+
+            display: flex;
+            align-items: center;
+
+            color: #333333;
+
+        }
+
+        &-text {
+            margin-top: 18px;
+            max-width: 492px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            /* or 125% */
+
+
+            color: #949494;
+        }
+     .subscription__right-btns{
+        margin-top: 34px;
+        display: flex;
+        gap: 21px;
+     }   
+    .money__btn{
+        position: relative;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        padding: 15px 35px;
+        background: #FFBD54;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+    .money__btn:active{
+        color: #FFBD54;
+        background: #333333;
+        opacity: 0.6;
+    }
+    .money__btn:hover{
+        color: #FFBD54;
+        background: #333333;
+    }
+    .money__btn::before{
+        content: url(../../images/money.svg);
+        position: absolute;
+        left: 10px;
+    }
+    .subscription__btn{
+        position: relative;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        padding: 15px 35px;
+        background: #333333;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+    .subscription__btn:active{
+        color: #333333;
+        background: #FFBD54;
+        opacity: 0.6;
+    }
+    .subscription__btn:hover{
+        color: #333333;
+        background: #FFBD54;
+    }
+    .subscription__btn::before{
+        content: url(../../images/money.svg);
+        position: absolute;
+        left: 10px;
+    }
+    }
+}

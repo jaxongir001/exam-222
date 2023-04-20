@@ -1,0 +1,91 @@
+.hero {
+    height: 100vh;
+    background-image: url(../../images/pet.jpg),url(../../images/pet\(1\).jpg) ;
+    background-repeat: no-repeat;
+    background-position: left -100px , right 350px;
+    .wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        .wrapper__left {
+            position: relative;
+
+            .left__dog {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+            .left__cat {
+                position: absolute;
+                top: 200px;
+                left: -100px;
+            }
+
+            .left__rebbit {
+                position: absolute;
+                top: 150px;
+                left: -170px;
+            }
+
+            .left__mouse {
+                position: absolute;
+                top: 340px;
+                left: -220px;
+
+            }
+        }
+
+        &__right {
+            position: relative;
+        .right__parrot{
+            position: absolute;
+            top: 200px;
+            right: -250px;
+        }
+            .wrapper__right-title {
+                max-width: 608px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 70px;
+                line-height: 64px;
+                color: #333333;
+
+                .title__span {
+                    color:
+                        #78C0DE;
+                }
+            }
+
+            .wrapper__right-text {
+                width: 400px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #949494;
+                line-height: 21px;
+            }
+
+            .wrapper__right-btn {
+                margin-top: 38px;
+                border: none;
+                padding: 15px 46px;
+                background: #333333;
+                border-radius: 3px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #FFFFFF;
+            }
+            .wrapper__right-btn:hover{
+                background: #FFBD54;
+                color: #FFFFFF;
+            }
+            .wrapper__right-btn:active{
+                background: #FFBD54;
+                opacity: 0.7;
+            }
+        }
+    }
+}

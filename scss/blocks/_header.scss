@@ -1,0 +1,93 @@
+header {
+  .header__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 106px;
+    list-style: none;
+    .header__list-item {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      .item_links {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #333333;
+      }
+      .item_links:hover{
+        color: #FFBD54;
+      }
+      .item_links:active{
+        color: #333333;
+
+        opacity: 0.6;
+      }
+    }
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav__logo:hover{
+      opacity: 0.8;
+    }
+    .nav__logo:active{
+      opacity: 0.6;
+    }
+    &__list {
+      display: flex;
+      align-items: center;
+      gap: 54px;
+      list-style: none;
+    
+      .item_links {
+        position: relative;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #333333;
+      }
+      .item_links:hover{
+        border-bottom: 2px solid #FFBD54;
+        opacity: 0.8;
+      }
+      .item_links:active{
+        border-bottom: 2px solid #FFBD54;
+        opacity: 0.6;
+      }
+    .item-link::before{
+      position: absolute;
+      content: url(../../images/fish.svg);
+      top: 0px;
+      left: -29px;
+    }
+    }
+    &__btn{
+      position: relative;
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      text-align: right;
+      color: #333333;
+    }       
+    .nav__btn:hover{
+      opacity: 0.8;
+    }
+    .nav__btn:active{
+      opacity: 0.6;
+    }
+    .nav__btn::before{
+      content: url(../../images/pet.svg);
+      position: absolute;
+      top: -3px;
+      left: -29px;
+    }
+}
+}

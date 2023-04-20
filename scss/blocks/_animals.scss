@@ -1,0 +1,97 @@
+.animals__title {
+    margin-top: 216px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+.animals {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__card{
+        display: flex;
+        flex-direction: column;
+   
+    }
+    .card-span {
+        text-align: right;
+        margin-left: 67px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #949494;
+    }
+    .animals_htag{
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #3D9CEA;
+        cursor: pointer;
+
+    }
+    .card__title {
+        margin-top: 32px;
+        max-width: 182px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        color: #000000;
+    }
+
+    .card__text {
+        margin-top: 10px;
+        max-width: 244px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+    }
+    
+ .animals__btn{
+    margin-top: 31px;
+    margin-left: 20px;
+     position: relative;
+     text-decoration: none;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 21px;
+     text-align: left;
+     color: #333333;
+   }       
+  .animals__btn:hover{
+     opacity: 0.8;
+   }
+   .animals__btn:active{
+     opacity: 0.6;
+  }
+   .animals__btn::before{
+     content: url(../../images/pet.svg);
+     position: absolute;
+     top: 0;
+     left: -30px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

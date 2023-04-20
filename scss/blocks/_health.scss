@@ -1,0 +1,46 @@
+     .line{
+        margin: 43px auto;
+        display: block;
+        width: 140px;
+        height: 0;
+        border: 1px solid #DBDBDB;
+     }
+    
+    
+    
+    .health__text{
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        max-width: 735px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #949494;
+    }
+
+
+    .health__text::before{
+        
+        content: url(../../images/“svg.svg);
+        position: absolute;
+        left: -181px;
+        bottom: 100px;
+    }
+    .health__text::after{
+        
+        content: url(../../images/“\ \(1\).svg);
+        position: absolute;
+        right: -181px;
+        bottom: -25px;
+    }
+    .text{
+        margin-top: 70px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #333333;
+        text-align: center;
+    }
